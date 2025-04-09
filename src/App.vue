@@ -1,7 +1,9 @@
 <template>
   <nav>
+    <div class="bg-pink-400 rounded-md ">
     <router-link to="/">خانه</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">درباره ما</router-link>
+    </div>
   </nav>
   <router-view />
 </template>
